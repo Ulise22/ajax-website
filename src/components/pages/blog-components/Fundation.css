@@ -1,0 +1,33 @@
+.fundation__subtitle {
+    margin-left: 30px;
+    color: #f00;
+}
+
+.fundation {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+}
+
+.fundation__image {
+    width: 3000px;
+    height: 150vh;
+    background-image: url(https://tmssl.akamaized.net/images/foto/galerie/johan-cruijff-ajax-amsterdam-1545915060-19587.jpg?lm=1545915079);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fundation__text {
+    padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .fundation {
+        flex-direction: column;
+    }
+
+    .fundation__image {
+        width: 100%;
+    }
+}

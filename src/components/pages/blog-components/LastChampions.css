@@ -1,0 +1,33 @@
+.last__subtitle {
+    margin-left: 30px;
+    color: #f00;
+}
+
+.last {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+}
+
+.last__image {
+    width: 3000px;
+    height: 150vh;
+    background-image: url(https://img.fcbayern.com/image/upload/t_cms-1x191-seo/v1601345940/cms/public/images/fcbayern-com/homepage/saison-18-19/gegner/180919_ajax_ima.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.last__text {
+    padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .last {
+        flex-direction: column;
+    }
+
+    .last__image {
+        width: 100%;
+    }
+}

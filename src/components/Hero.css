@@ -1,0 +1,44 @@
+.hero-container {
+    background-image: linear-gradient(to bottom, #a22a2299, #a22a2255), url(https://futbolfinanzas.com/wp-content/uploads/2020/11/ajax-tickets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -20px;
+    padding: 15px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    top: 30vh;
+}
+
+.hero-subtitle {
+    color: #fff;
+    font-weight: 900;
+}
+
+.hero-button {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    color: #f00;
+}
+
+.hero-button:hover {
+    background-color: #ccc;
+    border: #aaa;
+    color: #a00;
+}
+
+.hero__text {
+    color: #fff;
+    font-weight: 500;
+}

@@ -1,0 +1,34 @@
+.stadium__subtitle {
+    color: #f00;
+    margin-left: 20px;
+}
+
+.stadium__container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 15px;
+}
+
+.stadium__image {
+    width: 5000px;
+    height: 700px;
+    background-image: url(https://pulse.microsoft.com/wp-content/uploads/2019/07/BusinessLeadership_JohanCruijffArenA_Hero-2000x1000.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.stadium__texts {
+    padding: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .stadium__container {
+        flex-direction: column;
+    }
+
+    .stadium__image {
+        width: 95%;
+        height: 500px;
+    }
+
+}
